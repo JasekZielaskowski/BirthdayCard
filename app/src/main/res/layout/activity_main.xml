@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/androidparty" />
-    
+
     <TextView
         android:id="@+id/happybirthday_textview"
         android:layout_width="wrap_content"
@@ -19,7 +19,8 @@
         android:text="Happy Birthday Jasek"
         android:textSize="36sp"
         android:fontFamily="sans-serif-condensed-light"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:padding="28dp"/>
     <TextView
         android:id="@+id/from_textview"
         android:layout_width="wrap_content"
@@ -27,6 +28,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="From Jasek"
+        android:padding="28dp"
         />
 
 
